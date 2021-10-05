@@ -1,0 +1,26 @@
+
+param: ORIG: supply := 
+   1 329
+   2 329
+   3 329;
+
+param: DEST: demand :=
+        A3    75
+        A6    90
+        A8    81
+        A9    26
+        B2    57;
+
+param fix_cost :=
+1  400
+2  250
+3  300 ;
+
+
+
+param var_cost:
+
+          A3      A6      A8       A9      B2 :=
+    1     4       7       3        12      15
+    2     13      11      17       9       19
+    3     8       12      10       7       5;
